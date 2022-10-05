@@ -18,7 +18,8 @@ import edu.ncsu.monopoly.TradeDeal;
 import edu.ncsu.monopoly.TradeDialog;
 
 public class GUITradeDialog extends JDialog implements TradeDialog {
-    private JButton btnOK, btnCancel;
+    private JButton btnOK;
+    private JButton btnCancel;
     private JComboBox cboSellers, cboProperties;
 
     private TradeDeal deal;
