@@ -43,7 +43,7 @@ public class GameBoard {
     }
 
     public Card drawChanceCard() {
-        Card card = (Card)chanceCards.get(0);
+        Card card = chanceCards.get(0);
         chanceCards.remove(0);
         addCard(card);
         return card;
